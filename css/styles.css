@@ -98,4 +98,55 @@ a {
 }
 
 
+.sellers__head{
+    text-align: center;
+    margin-top: 60px;
+}
 
+.sellers__head p {
+    font-size: 20px;
+}
+
+.sellers__head__text {
+    margin: 27px auto 47px auto;
+    width: 632px;
+    line-height: 25px;
+}
+
+.sellers__head__desc {
+    margin-bottom: 87px;
+}
+
+
+.sellers__wrapper h2{
+    text-align: center;
+}
+
+.sellers__items{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 247px 0;
+}
+
+.sellers__item{
+    text-align: center;
+}
+
+.sellers__item__title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    width: 150px;
+    margin: 20px auto 17px auto;
+}
+
+.sellers__item__price {
+    font-size: 17px;
+    margin-bottom: 11px;
+}
+
+.sellers__btn {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+}
