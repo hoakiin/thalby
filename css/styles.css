@@ -150,3 +150,60 @@ a {
     font-weight: 700;
     text-decoration: underline;
 }
+
+
+.info {
+    background-color: #f0f0f0;
+    padding: 76px 0 51px 0;
+}
+
+.info .container {
+    display: flex;
+}
+
+.info__img {
+    padding: 0 50px 0 0;
+}
+
+.info__content {
+    padding-top: 69px;
+}
+
+.info__content p {
+    font-size: 36px;
+    padding: 33px 0 41px 0;
+    width: 498px;
+    line-height: 43px;
+}
+
+.info__content a {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.info_middle {
+    background-color: #e0e0e0;
+}
+
+.info_middle .container {
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.info_middle .info__content {
+    text-align: right;
+    padding: 90px 50px 0 0;
+}
+
+.info_middle .info__img {
+    padding: 0;
+}
+
+.info_last .info__content {
+    padding: 90px 50px 0 0;
+}
+
+.info_last p {
+    width: 550px;
+} 
