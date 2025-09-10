@@ -20,6 +20,8 @@ a {
     margin: 0 auto;
 }
 
+/* header section */
+
 .header {
     padding: 15px 0;
 }
@@ -53,6 +55,7 @@ a {
     align-items: center;
 }
 
+/* main section */
 
 .main {
     background-color: #F0EFEB;
@@ -97,6 +100,7 @@ a {
     margin: 9px -130px 0 0;
 }
 
+/* sellers section */
 
 .sellers__head{
     text-align: center;
@@ -151,6 +155,7 @@ a {
     text-decoration: underline;
 }
 
+/* info section */
 
 .info {
     background-color: #f0f0f0;
@@ -207,3 +212,60 @@ a {
 .info_last p {
     width: 550px;
 } 
+
+/* people section */
+
+.people {
+    padding-top: 52px;
+}
+
+.people h2 {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto 100px auto;
+    line-height: 43px;
+}
+
+.people__wrapper {
+    background-color: #F0F0F0;
+    position: relative;
+    height: 480px;
+    margin-top: 290px;
+}
+
+.people__wrapper .container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -188px;
+    right: 0;
+    left: 0;
+}
+
+.people__item {
+    text-align: center;
+}
+
+.people__item__title {
+    font-size: 24px;
+    font-weight: 700;
+    width: 272px;
+    margin: 33px auto 35px auto;
+    line-height: 28px;
+}
+
+.people__item__text {
+    font-size: 19px;
+    margin-bottom: 44px;
+    line-height: 25px;
+}
+
+.people__item__text span {
+    display: block;
+}
+
+.people__item a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
