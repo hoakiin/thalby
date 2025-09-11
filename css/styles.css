@@ -306,3 +306,64 @@ a {
     font-weight: 700;
     text-decoration: underline;
 }
+
+
+/* subscribe section */
+
+.subscribe {
+    padding: 78px 0 88px 0;
+    text-align: center;
+}
+
+.subscribe p {
+    margin: 0 auto;
+    padding: 9px 0 25px 0;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 500px;
+}
+
+.subscribe form {
+    width: 366px;
+    margin: 0 auto;
+}
+
+.subscribe__form__row {
+    display: flex;
+}
+
+.subscribe__form__row:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe__form__row input {
+    color: #A0A0A0;
+    border: 1.5px solid #000;
+    padding: 11px 0 11px 8px;
+}
+
+.subscribe__form__row:first-child input {
+    width: 144px;
+    margin-bottom: 18px;
+}
+
+.subscribe__form__row:nth-child(2) input {
+    display: block; 
+    width: 366px;
+    margin-bottom: 16px;
+}
+
+.subscribe button {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    margin: 0 auto;
+    padding: 7px 0 10px 0;
+    border-radius: 50px;
+}
