@@ -213,6 +213,43 @@ a {
     width: 550px;
 } 
 
+
+/* features section */
+
+.features {
+    padding-top: 190px;
+    text-align: center;
+}
+
+.features h2 {
+    font-weight: 400;
+    width: 450px;  
+    margin: 0 auto; 
+    text-align: center;
+    line-height: 42px;
+}
+
+.features__wrapper {
+    padding: 69px 0 110px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 110px;
+}
+
+.features__item__title {
+    line-height: 35px;
+    padding-top: 26px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.features__item__title span {
+    display: block;
+}
+
+
 /* people section */
 
 .people {
