@@ -15,12 +15,16 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .container {
     width: 1064px;
     margin: 0 auto;
 }
 
-/* header section */
+/* header */
 
 .header {
     padding: 15px 0;
@@ -94,6 +98,11 @@ a {
     padding: 8px 26px 9px 26px;
     border-radius: 50px;
     font-size: 17px;
+}
+
+.main__btn:hover {
+    text-decoration: none;
+    background-color: #2d2b2b;
 }
 
 .main__img {
@@ -366,4 +375,61 @@ a {
     margin: 0 auto;
     padding: 7px 0 10px 0;
     border-radius: 50px;
+}
+
+.subscribe button:hover {
+    background-color: #2d2b2b;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.footer .container {
+    padding: 50px 144px 28px 144px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__top__left {
+    width: 127px;
+}
+
+.footer__top__icons {
+    width: 110px;
+    margin: 35px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__top__right {
+    display: flex;
+    column-gap: 72px;
+}
+
+.footer__top__right p {
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.footer__top__right nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__top__right a{
+    padding-bottom: 19px;
+}
+
+.footer__bottom p {
+    text-align: center;
 }
